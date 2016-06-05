@@ -1,0 +1,87 @@
+@media print{
+  .no_print , .print_button{
+    display:none !important;
+  }
+  #page-wrapper{
+    margin:0px !important;
+    border:0px !important;
+    width: 100% !important;
+  }
+  .form-control{
+    display:none !important;
+  }
+
+  #result_admin{
+    max-width:100%;
+  }
+
+  table{
+    table-layout: fixed;
+    font-size: 9px;
+  }
+
+  td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .col-md-6{
+    width: 50%;
+    float: left;
+  }
+  .only_print{
+    display: block !important;
+  }
+}
+
+@media screen{
+  .only_print{
+    display: none !important;
+  }
+}
+
+.vcenter{
+  vertical-align: middle !important;
+}
+
+#popup_assign{
+  left: 0px;
+  z-index: 9999;
+  width: 100%;
+  top: 0px;
+  height: 100%;
+  position: fixed;
+}
+#popup_assign .row {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+#popup_assign .popup_bg{
+  left: 0px;
+  width: 100%;
+  top: 0px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.6;
+  height: 100%;
+  position: fixed;
+}
+.r-amt{
+  background-color:#bbb;
+}
+.r-OJ{
+  background-color:#eee;
+}
+.r-sup{
+  background-color:#aaa;
+}
+.r-cut{
+  background-color:#ddd;
+}
+.r-receive{
+  background-color:#ccc;
+}
+.r-return{
+  background-color:#eee;
+}
